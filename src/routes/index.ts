@@ -76,9 +76,9 @@ const coreRoutes = [
 
   },
   {
-  path: '/profiles',
+    path: '/profiles',
     title: 'Profile',
-      component: UserProfile,
+    component: UserProfile,
 
   },
   {
@@ -87,47 +87,47 @@ const coreRoutes = [
     component: List1,
   },
   {
-    path: '/list/users',
+    path: '/users/list',
     title: 'List Users',
     component: ListUsers,
   },
   {
-    path: '/list/roles',
+    path: '/roles/list',
     title: 'List Roles',
     component: ListRoles,
   },
   {
-    path: '/list/permissions',
+    path: '/permissions/list',
     title: 'List Permissions',
     component: ListPermissions,
   },
   {
-    path: '/update/user/:id',
+    path: '/user/update/:id',
     title: 'Update User',
     component: UpdateUser,
   },
   {
-    path: '/create/user',
+    path: '/user/create',
     title: 'Create User',
     component: CreateUser,
   },
   {
-    path: '/update/permission/:id',
+    path: '/permission/update/:id',
     title: 'Update Permission',
     component: UpdatePermission,
   },
   {
-    path: '/create/permission',
+    path: '/permission/create',
     title: 'Create Permission',
     component: CreatePermission,
   },
   {
-    path: '/update/role/:id',
+    path: '/role/update/:id',
     title: 'Update Role',
     component: UpdateRole,
   },
   {
-    path: '/create/role',
+    path: '/role/create',
     title: 'Create Role',
     component: CreateRole,
   }
