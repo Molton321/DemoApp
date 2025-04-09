@@ -36,7 +36,7 @@ class SecurityService extends EventTarget {
       }
 
       const data = await response.json();
-      localStorage.setItem('user', JSON.stringify(data));
+      // localStorage.setItem('user', JSON.stringify(data));
       store.dispatch(setUser(data));
       return data;
     } catch (error) {

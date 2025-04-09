@@ -130,8 +130,7 @@ const coreRoutes = [
     path: '/role/create',
     title: 'Create Role',
     component: CreateRole,
-  }
-
+  },
 ];
 
 const routes = [...coreRoutes];
